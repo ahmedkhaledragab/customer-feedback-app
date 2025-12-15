@@ -2,6 +2,7 @@ workflows:
   android-build:
     name: Build Android APK (Kivy)
     max_build_duration: 120
+    instance_type: linux_x2   # ⭐ مهم جدًا
 
     environment:
       vars:
