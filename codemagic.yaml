@@ -10,8 +10,8 @@ workflows:
     scripts:
       - name: Install system dependencies
         script: |
-          sudo apt update
-          sudo apt install -y zip unzip openjdk-17-jdk python3 python3-pip
+          apt-get update
+          apt-get install -y zip unzip openjdk-17-jdk python3 python3-pip
 
       - name: Install Python dependencies
         script: |
